@@ -1,0 +1,86 @@
+{
+  "london": [
+    {
+      "title": "River Thames Boat Tours",
+      "description": "Experience London from a unique perspective with a relaxing boat tour along the River Thames. These tours offer spectacular views of iconic landmarks such as Tower Bridge, the Houses of Parliament, and the London Eye while providing historical commentary."
+    },
+    {
+      "title": "Hyde Park Serpentine Lido",
+      "description": "A popular swimming spot in the heart of London, the Serpentine Lido offers a refreshing escape from the city heat during summer months. The facility includes a gated swimming area, changing rooms, and a sunbathing area."
+    },
+    {
+      "title": "Hampstead Heath Swimming Ponds",
+      "description": "These natural swimming ponds are a beloved tradition in London. With separate ponds for men, women, and mixed groups, they offer a unique wild swimming experience surrounded by the beautiful scenery of Hampstead Heath."
+    }
+  ],
+  "barcelona": [
+    {
+      "title": "Barcelona Harbor Sailing Tours",
+      "description": "Enjoy the Mediterranean breeze with a sailing tour from Barcelona's harbor. These tours offer everything from sunset cruises to full-day excursions with swimming stops along the Costa Brava."
+    },
+    {
+      "title": "Barceloneta Beach",
+      "description": "The city's most popular beach offers excellent swimming conditions and various water sports. With its golden sand and proximity to restaurants and bars, it's perfect for a full day of sun and sea."
+    },
+    {
+      "title": "Port Olimpic Water Activities",
+      "description": "This marina built for the 1992 Olympics now hosts numerous water activities including jet skiing, paddleboarding, and kayaking. The area also features excellent swimming spots and a vibrant atmosphere."
+    }
+  ],
+  "sydney": [
+    {
+      "title": "Sydney Harbour Cruises",
+      "description": "Explore one of the world's most beautiful harbors with a cruise that offers stunning views of the Sydney Opera House and Harbour Bridge. Many cruises include swimming stops at secluded harbour beaches."
+    },
+    {
+      "title": "Bondi Beach",
+      "description": "Australia's most famous beach offers excellent swimming in its iconic crescent of golden sand. Swimmers can enjoy the protected waters between the flags or take a dip in the Bondi Icebergs ocean pool."
+    },
+    {
+      "title": "Manly Ferry and Beach",
+      "description": "The ferry ride to Manly is an attraction in itself, offering spectacular harbour views. Once there, Manly Beach provides excellent swimming conditions and a relaxed beach town atmosphere."
+    }
+  ],
+  "paris": [
+    {
+      "title": "Seine River Cruises",
+      "description": "Discover the beauty of Paris from its iconic river with a Seine cruise. These boat tours pass by landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre, offering unique perspectives and photo opportunities of the City of Light."
+    },
+    {
+      "title": "Paris Plages",
+      "description": "During summer months, artificial beaches are created along the Seine with imported sand, palm trees, and deck chairs. Some sections offer supervised swimming areas where visitors can cool off while enjoying views of historic Paris."
+    },
+    {
+      "title": "Bassin de la Villette",
+      "description": "This canal basin in northeastern Paris offers outdoor swimming in clean, filtered water during summer. The floating pools provide a safe swimming environment with separate areas for children and adults, surrounded by cafes and recreational facilities."
+    }
+  ],
+  "newdelhi": [
+    {
+      "title": "Yamuna River Boat Rides",
+      "description": "Experience the spiritual side of Delhi with a traditional boat ride on the Yamuna River. These peaceful excursions offer views of historic monuments and temples along the riverbanks, particularly beautiful during sunrise and sunset."
+    },
+    {
+      "title": "India Gate Boating Lake",
+      "description": "The artificial lake near India Gate offers recreational boating with paddleboats and rowboats available for rent. The setting provides scenic views of colonial-era architecture while enjoying a relaxing water activity in the heart of New Delhi."
+    },
+    {
+      "title": "Bhalswa Lake",
+      "description": "This large lake in North Delhi provides a welcome escape from the city heat with boating facilities and swimming areas. The surrounding park offers picnic spots and walking paths with views of the water and Delhi's skyline in the distance."
+    }
+  ],
+  "mumbai": [
+    {
+      "title": "Gateway of India Harbor Cruises",
+      "description": "Explore Mumbai's historic harbor with boat tours departing from the iconic Gateway of India. These cruises offer views of the Mumbai skyline, Elephanta Island, and naval dockyard while providing insight into the city's maritime history."
+    },
+    {
+      "title": "Juhu Beach",
+      "description": "One of Mumbai's most famous beaches offers swimming opportunities along with a carnival-like atmosphere. The beach is lined with food stalls serving local street food and offers activities like horse rides and various water sports."
+    },
+    {
+      "title": "Marine Drive Beach",
+      "description": "Also known as Chowpatty Beach, this popular spot along Mumbai's famous Marine Drive promenade offers swimming and spectacular sunset views. The area becomes especially lively in the evenings with vendors, entertainers, and families enjoying the seaside."
+    }
+  ]
+}

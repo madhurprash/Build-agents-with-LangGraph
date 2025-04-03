@@ -1,0 +1,21 @@
+[project]
+name = "scratchpad-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=0.3.10",
+    "langchain==0.3.13",
+    "langchain-aws>=0.2.10",
+    "langchain-community>=0.3.13",
+    "langchainhub>=0.1.21",
+    "litellm==1.55.12",
+    "zmq>=0.0.0",
+    "ipykernel>=6.29.5",
+    "jupyter-client>=8.6.3",
+    "tavily-python>=0.5.1",
+    "pandas>=2.2.3",
+    "faker>=37.1.0",
+    "ragas>=0.2.14",
+]

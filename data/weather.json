@@ -1,0 +1,86 @@
+{
+    "london": {
+      "location": {
+        "name": "London",
+        "country": "United Kingdom",
+        "region": "City of London, Greater London",
+        "lat": "51.517",
+        "lon": "-0.106",
+        "timezone_id": "Europe/London",
+        "localtime": "2025-04-02 14:30"
+      },
+      "current": {
+        "temperature": 18,
+        "weather_code": 116,
+        "weather_descriptions": ["Partly cloudy"],
+        "wind_speed": 11,
+        "wind_dir": "WSW",
+        "pressure": 1012,
+        "precip": 0.1,
+        "humidity": 62,
+        "cloudcover": 25,
+        "feelslike": 17,
+        "uv_index": 4,
+        "visibility": 10,
+        "air_quality": {
+          "us-epa-index": 1
+        }
+      }
+    },
+    "barcelona": {
+      "location": {
+        "name": "Barcelona",
+        "country": "Spain",
+        "region": "Catalonia",
+        "lat": "41.389",
+        "lon": "2.159",
+        "timezone_id": "Europe/Madrid",
+        "localtime": "2025-04-02 15:30"
+      },
+      "current": {
+        "temperature": 22,
+        "weather_code": 113,
+        "weather_descriptions": ["Sunny"],
+        "wind_speed": 8,
+        "wind_dir": "SE",
+        "pressure": 1015,
+        "precip": 0,
+        "humidity": 55,
+        "cloudcover": 5,
+        "feelslike": 24,
+        "uv_index": 6,
+        "visibility": 10,
+        "air_quality": {
+          "us-epa-index": 2
+        }
+      }
+    },
+    "sydney": {
+      "location": {
+        "name": "Sydney",
+        "country": "Australia",
+        "region": "New South Wales",
+        "lat": "-33.868",
+        "lon": "151.207",
+        "timezone_id": "Australia/Sydney",
+        "localtime": "2025-04-02 23:30"
+      },
+      "current": {
+        "temperature": 21,
+        "weather_code": 113,
+        "weather_descriptions": ["Clear"],
+        "wind_speed": 15,
+        "wind_dir": "ENE",
+        "pressure": 1010,
+        "precip": 0,
+        "humidity": 65,
+        "cloudcover": 10,
+        "feelslike": 21,
+        "uv_index": 1,
+        "visibility": 10,
+        "air_quality": {
+          "us-epa-index": 1
+        }
+      }
+    }
+  }
