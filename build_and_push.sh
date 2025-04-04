@@ -28,7 +28,8 @@ aws ecr create-repository --repository-name "$ECR_REPO_NAME" --region "$AWS_REGI
 
 # Build the Docker image without guardrails token
 echo "🏗️  Building Docker image..."
-docker build -t "$ECR_REPO_NAME" .
+# docker build -t "$ECR_REPO_NAME" .
+docker build --platform linux/amd64 -t "$ECR_REPO_NAME" .
 
 # Tag the image
 echo "🏷️  Tagging image..."

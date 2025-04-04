@@ -1,5 +1,6 @@
 fastapi
 mangum
+nest-asyncio
 pydantic==2.9.2
 langchain-core==0.3.12
 langgraph==0.2.38
