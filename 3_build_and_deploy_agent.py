@@ -278,12 +278,7 @@ workflow.set_entry_point("input_user_interests")
 # Next, we will add a direct edge between input interests and create itinerary
 workflow.add_edge("input_user_interests", "create_itinerary")
 workflow.add_edge("create_itinerary", END)
-
-
-# Next, we create a checkpointer which will let us have the graph persist its state
-# this is a complete memory for the entire graph
-memory = MemorySaver()
-app = workflow.compile(checkpointer=memory)
+app = workflow.compile()
 
 display(
     Image(
@@ -353,10 +348,6 @@ class ItineraryInput(BaseModel):
         ...,
         description="The user's message containing their interests and preferences for the itinerary."
     )
-    thread_id: Optional[str] = Field(
-        ...,
-        description="The thread ID for the conversation."
-    )
 
 class ItineraryOutput(BaseModel):
     """
@@ -379,10 +370,9 @@ fastAPI_app = FastAPI(
 async def generate_itinerary(request: ItineraryInput):
     # Prepare input for the workflow
     input_data = {"user_message": request.user_message}
-    config = {"configurable": {"thread_id": request.thread_id}}
     
     # Call the workflow
-    result = app.invoke(input_data, config=config)
+    result = app.invoke(input_data)
     
     # Return the result
     return {"itinerary": result}
@@ -430,6 +420,9 @@ def start_server():
     print("Server started at http://localhost:8000")
     print("API documentation available at http://localhost:8000/docs")
     
+from mangum import Mangum
+handler = Mangum(fastAPI_app)
+
 # Start the server
 if __name__ == "__main__":
     print("Starting server...")
