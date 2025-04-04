@@ -420,15 +420,28 @@ def start_server():
     print("Server started at http://localhost:8000")
     print("API documentation available at http://localhost:8000/docs")
     
-from mangum import Mangum
-handler = Mangum(fastAPI_app)
+# Check if running inside AWS Lambda
+inside_lambda = os.environ.get("AWS_EXECUTION_ENV") is not None
 
-# Start the server
-if __name__ == "__main__":
-    print("Starting server...")
-    import uvicorn
-    uvicorn.run(fastAPI_app, host="0.0.0.0", port=8000, log_level="info")
+if inside_lambda:
+    logger.info("Running inside Lambda")
+    # Lambda Handler for AWS Lambda deployment using Mangum
+    from mangum import Mangum
+    handler = Mangum(
+        fastAPI_app,
+        lifespan="auto",
+        api_gateway_base_path="/prod",
+        text_mime_types=["application/json"],
+    )
 else:
-    # For Jupyter notebook environment
-    nest_asyncio.apply()
-    start_server()
+    logger.info("Not running inside Lambda")
+    if __name__ == "__main__":
+        import uvicorn
+        # ----------------------------
+        # Start the FastAPI App Locally
+        # ----------------------------
+        uvicorn.run(fastAPI_app, host="0.0.0.0", port=8000, log_level="info")
+    else:
+        # For example, when running inside a notebook
+        nest_asyncio.apply()
+        print("FastAPI app loaded successfully")
