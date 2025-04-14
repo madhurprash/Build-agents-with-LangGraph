@@ -12,7 +12,7 @@ fi
 
 # Configuration
 AWS_REGION="us-west-2"
-ECR_REPO_NAME="newrepo"
+ECR_REPO_NAME="trip-itinerary-assistant"
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 ECR_REPO_URI="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPO_NAME"
 
