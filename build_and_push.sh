@@ -11,20 +11,18 @@ if [ -f .env ]; then
 fi
 
 # Configuration
-AWS_REGION="us-east-1"
-ECR_REPO_NAME="trip-itinerary-assistant"
+AWS_REGION="us-west-2"
+ECR_REPO_NAME="newrepo"
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 ECR_REPO_URI="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPO_NAME"
 
 echo "🔐 Logging in to Amazon ECR..."
-aws ecr get-login-password --region "$AWS_REGION" | \
-  docker login --username AWS --password-stdin "$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com"
+aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin "$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com"
 
-# Force create a new repository
-echo "📦 Creating ECR repository..."
-aws ecr describe-repositories --repository-names "$ECR_REPO_NAME" --region "$AWS_REGION" && \
-  aws ecr delete-repository --repository-name "$ECR_REPO_NAME" --region "$AWS_REGION" --force || true
-aws ecr create-repository --repository-name "$ECR_REPO_NAME" --region "$AWS_REGION"
+# Create repository if it doesn't exist
+echo "📦 Creating ECR repository if it doesn't exist..."
+aws ecr describe-repositories --repository-names "$ECR_REPO_NAME" --region "$AWS_REGION" || \
+    aws ecr create-repository --repository-name "$ECR_REPO_NAME" --region "$AWS_REGION"
 
 # Build the Docker image without guardrails token
 echo "🏗️  Building Docker image..."
