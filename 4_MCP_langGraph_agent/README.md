@@ -24,7 +24,7 @@ MCP uses a client-server architecture that contains the following components and
 
 - **Remote services**: External systems available over the internet through APIs that MCP servers can connect to.
 
-![mcp-architecture](img/mcp-architecture.png)
+![mcp-architecture](../img/mcp-architecture.png)
 
 1. how to set up Amazon Bedrock agents that take advantage of MCP servers:
 
