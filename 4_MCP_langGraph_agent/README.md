@@ -71,9 +71,9 @@ For now, we will simply create a simple MCP server with the two tools -> 1. `get
 
 To run the solution locally, run the following command. This will initialize the MCP client, connect to the server, list the tools, build the `ReACT` langGraph agent which will have access to tools within the server and use the appropriate one as needed based on the system prompt and other instructions provided.
 
-    ```bash
-    uv run client.py
-    ```
+```
+uv run client.py
+```
 
 ### Multi turn conversation
 
