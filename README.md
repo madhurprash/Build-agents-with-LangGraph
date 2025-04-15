@@ -139,6 +139,6 @@ Next, navigate to the labs below and run the Jupyter notebooks after selecting t
     
     ![invoke2](img/invoke2.png)
 
-5. **Introduction to Model Context Protocol (MCP)**: In this file, we are going to introduce the concept of Model Context Protocol (MCP), how it helps agents/LLMs to easily get access to data sources using a standardized protocol, and how you can easily build your MCP agent solutions using `LangGraph` and `Bedrock`.
+5. **Introduction to Model Context Protocol (MCP)**: In this file, we are going to introduce the concept of Model Context Protocol (MCP), how it helps agents/LLMs to easily get access to data sources using a standardized protocol, and how you can easily build your MCP agent solutions using `LangGraph` and `Bedrock`. In this lab, we will be converting our basic trip itinerary agent with tools into an MCP server. MCP servers are lightweight python programs that provide specific functionalities to the host application. The host application is nothing but an AI system or AI agent or any environment or application that needs access to the data required to answer user questions. In this case, we will be running this locally but as you scale your use case, you would deploy these servers as containers and scale them using ECS, Elastic load balancers and add additional observability and security components to this. 
 
 
