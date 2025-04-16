@@ -80,8 +80,8 @@ Follow these steps to set up and run the AWS incident response system:
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/madhurprash/langGraph-AWS-incident-response.git
-    cd langGraph-AWS-incident-response/scratchpad_examples
+    git clone https://github.com/madhurprash/Build-agents-with-LangGraph.git
+    cd Build-agents-with-LangGraph
     ```
 
 2. Install uv (a fast Python package installer), create and activate the Python environment and set up a Jupyter kernel for the environment
