@@ -37,7 +37,7 @@
       "name": "Task Update Node Development",
       "description": "Develop the LangGraph node responsible for handling task updates. Ensure proper validation against the TaskSchema and appropriate error handling.",
       "due_date": "2024-09-27",
-      "status": "to-do",
+      "status": "completed",
       "priority": "medium"
     },
     {
@@ -202,6 +202,54 @@
     },
     {
       "id": "TASK-026",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-027",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-028",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-029",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-030",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-031",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-032",
       "name": "task25",
       "description": "Maintaining STM memory",
       "due_date": "2023-12-31",
