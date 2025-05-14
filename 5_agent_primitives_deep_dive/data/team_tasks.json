@@ -45,7 +45,7 @@
       "name": "Task Query Node Development",
       "description": "Develop the LangGraph node for querying tasks with various filters like status, priority, and due dates. Optimize for both structured queries and natural language queries.",
       "due_date": "2024-09-30",
-      "status": "to-do",
+      "status": "completed",
       "priority": "medium"
     },
     {
@@ -250,6 +250,38 @@
     },
     {
       "id": "TASK-032",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-033",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-034",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-035",
+      "name": "task25",
+      "description": "Maintaining STM memory",
+      "due_date": "2023-12-31",
+      "status": "to-do",
+      "priority": "high"
+    },
+    {
+      "id": "TASK-036",
       "name": "task25",
       "description": "Maintaining STM memory",
       "due_date": "2023-12-31",
