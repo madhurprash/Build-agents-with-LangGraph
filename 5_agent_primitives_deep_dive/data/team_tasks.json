@@ -5,7 +5,7 @@
       "name": "LangGraph Agent Architecture Design",
       "description": "Create a high-level architecture design document for our Maya project manager agent built with LangGraph. Include state management, memory persistence strategy, tool integration patterns, and graph structure.",
       "due_date": "2024-09-15",
-      "status": "in-progress",
+      "status": "completed",
       "priority": "high"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Define LangGraph Node Interface Contracts",
       "description": "Document the interface contracts between all LangGraph nodes in the agent workflow. Include input/output schemas, state requirements, and error handling patterns.",
       "due_date": "2024-09-10",
-      "status": "to-do",
+      "status": "completed",
       "priority": "medium"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Implement Memory Persistence Layer",
       "description": "Build the memory persistence layer for the LangGraph agent using LangGraph's built-in persistence capabilities. Ensure it properly stores and retrieves task data across multiple agent sessions.",
       "due_date": "2024-09-20",
-      "status": "to-do",
+      "status": "completed",
       "priority": "high"
     },
     {
