@@ -5,7 +5,7 @@
       "name": "LangGraph Agent Architecture Design",
       "description": "Create a high-level architecture design document for our Maya project manager agent built with LangGraph. Include state management, memory persistence strategy, tool integration patterns, and graph structure.",
       "due_date": "2024-09-15",
-      "status": "completed",
+      "status": "in-progress",
       "priority": "high"
     },
     {
@@ -277,7 +277,7 @@
       "name": "task25",
       "description": "Maintaining STM memory",
       "due_date": "2023-12-31",
-      "status": "to-do",
+      "status": "completed",
       "priority": "high"
     },
     {
